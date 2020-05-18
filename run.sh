@@ -3,8 +3,7 @@
 now=$(date +"%Y%m%d_%H%M%S")
 model_name="StereoGAN_maxdisp192_cycle10_id5_corr1_ms1e-1_invwarp5_invdispwarp5_imwidth512_height256_ep100_lr1e-5_gan2e-5"
 
-srun --partition=Pixel --mpi=pmi2 --gres=gpu:4 -n1 --ntasks-per-node=4 \
---job-name=${model_name} --kill-on-bad-exit=1 python -u train.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -u train.py \
 --model_type='dispnetc' \
 --source_dataset='driving' \
 --batch_size=4 \
