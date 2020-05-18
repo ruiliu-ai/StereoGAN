@@ -1,5 +1,5 @@
 # StereoGAN: Bridging Synthetic-to-Real Domain Gap by Joint Optimization of Domain Translation and Stereo Matching
-[CVPR 2020 paper](https://arxiv.org/abs/2005.01927) | [BibeTex](#citation)
+[CVPR 2020 paper](https://arxiv.org/abs/2005.01927) | [BibTex](#citation)
 
 ## Introduction
 
@@ -8,13 +8,14 @@ We propose an end-to-end training framework with domain translation and stereo m
 ![framework](imgs/framework.png)
 
 ## Training
+This project requires PyTorch>=1.0.0
 ```
 sh run.sh
 ```
 
 ## Citation
 ```
-@InProceedings{Liu_2020_CVPR,
+@InProceedings{Liu_2020_StereoGAN,
 author = {Liu, Rui and Yang, Chengxi and Sun, Wenxiu and Wang, Xiaogang and Li, Hongsheng},
 title = {StereoGAN: Bridging Synthetic-to-Real Domain Gap by Joint Optimization of Domain Translation and Stereo Matching},
 booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
