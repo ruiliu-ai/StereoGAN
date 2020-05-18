@@ -1,0 +1,8 @@
+training/image_2/000000_10.png training/image_3/000000_10.png training/disp_occ_0/000000_10.png
+training/image_2/000001_10.png training/image_3/000001_10.png training/disp_occ_0/000001_10.png
+training/image_2/000002_10.png training/image_3/000002_10.png training/disp_occ_0/000002_10.png
+training/image_2/000003_10.png training/image_3/000003_10.png training/disp_occ_0/000003_10.png
+training/image_2/000004_10.png training/image_3/000004_10.png training/disp_occ_0/000004_10.png
+training/image_2/000005_10.png training/image_3/000005_10.png training/disp_occ_0/000005_10.png
+training/image_2/000006_10.png training/image_3/000006_10.png training/disp_occ_0/000006_10.png
+training/image_2/000007_10.png training/image_3/000007_10.png training/disp_occ_0/000007_10.png
