@@ -28,7 +28,7 @@ class ImageDataset(Dataset):
         self.rootA = rootA
         self.rootB = rootB
         self.leftA_files, self.rightA_files, self.dispA_files = self.load_path('filenames/driving_train.txt')
-        self.leftB_files, self.rightB_files, self.dispB_files = self.load_path('filenames/kitti15_list.txt')
+        self.leftB_files, self.rightB_files, self.dispB_files = self.load_path('filenames/kitti15_train.txt')
 
     def load_path(self, list_filename):
         lines = read_all_lines(list_filename)
@@ -93,7 +93,7 @@ class ImageDataset(Dataset):
 # for validation
 class ValJointImageDataset(Dataset):
     def __init__(self, root='/mnt/lustre/liurui/data/kitti15', transforms_=None, input_shape=(3, 384, 1280)):
-        f = open('./filenames/kitti15_list.txt', 'r')
+        f = open('./filenames/kitti15_val.txt', 'r')
         mean = [0.5, 0.5, 0.5]
         std = [0.5, 0.5, 0.5]
         channels, height, width = input_shape
